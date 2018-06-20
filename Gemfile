@@ -1,6 +1,6 @@
 source 'http://rubygems.org'
 
-gem 'rails', '~>3.2.0'
+gem 'rails', '~> 4.0.0'
 
 gem 'faker'
 gem 'pg'
@@ -18,8 +18,8 @@ group :development, :test do
   gem 'capybara'
   gem 'capybara-screenshot'
   gem 'selenium-webdriver'
-  gem 'rspec-rails'
-  gem 'spork-rails'
+  gem 'rspec-rails', '>= 2.12.0'
+  gem 'spork-rails', '>= 4.0.0'
   gem 'launchy'    # So you can do Then show me the page
-  gem 'factory_girl_rails'
+  gem 'factory_girl_rails', '>= 4.1.0'
 end
