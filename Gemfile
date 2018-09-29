@@ -15,9 +15,9 @@ gem 'thin'
 
 group :development, :test do
   gem 'pry'
-  gem 'capybara'
-  gem 'capybara-screenshot'
-  gem 'selenium-webdriver'
+  gem 'capybara', '>= 2.0.1'
+  gem 'capybara-screenshot', '>= 0.3.1'
+  gem 'selenium-webdriver', '>= 2.26.0'
   gem 'rspec-rails'
   gem 'spork-rails'
   gem 'launchy'    # So you can do Then show me the page
