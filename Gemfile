@@ -15,8 +15,8 @@ gem 'thin'
 
 group :development, :test do
   gem 'pry'
-  gem 'capybara'
-  gem 'capybara-screenshot'
+  gem 'capybara', '>= 2.0.1'
+  gem 'capybara-screenshot', '>= 0.3.1'
   gem 'selenium-webdriver'
   gem 'rspec-rails'
   gem 'spork-rails'
